@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+}
+html, body{
+	color: #2E2E2E;
+	font-family: $fonts1;
+	font-weight: normal;
+}
+.hidden{
+	display: none;
+}
+.wrp{
+	img{
+		max-width: 100%;
+	}
+	.h1{
+		color: #057BAF;
+		font-size: 24px;
+		font-weight: normal;
+		margin: 0 0 30px;
+	}
+	.banner-a2{
+		margin-bottom: 60px;
+	}
+}
+
+

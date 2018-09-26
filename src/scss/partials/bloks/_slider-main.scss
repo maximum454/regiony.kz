@@ -1,0 +1,76 @@
+.slider-main{
+	margin-bottom: 60px;
+	&__img{
+		position: relative;
+		img{
+			max-width: 100%;
+		}
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(125,185,232,0.01) 1%, rgba(7,124,176,1) 98%, rgba(5,123,175,1) 100%);
+			background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(125,185,232,0.01) 1%,rgba(7,124,176,1) 98%,rgba(5,123,175,1) 100%);
+			background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(125,185,232,0.01) 1%,rgba(7,124,176,1) 98%,rgba(5,123,175,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#057baf',GradientType=0 );
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__header{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 30px;
+		margin: 0;
+		z-index: 10;
+		color: #fff;
+		font-size: 22px;
+		font-weight: bold;
+	}
+	&__news{
+		position: relative;
+		padding: 30px 30px 75px;
+		border: 1px solid #FEC50C;
+	}
+	&__scroll{
+		height: 298px;
+		padding-right: 20px;
+		overflow-y: scroll;
+		margin-bottom: 4px;
+	}
+	&__item{
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #FEC50C;
+	}
+	&__data{
+		color: #057BAF;
+		font-size: 14px;
+		font-weight: 500;
+		margin-bottom: 3px;
+	}
+	&__name{
+		font-size: 14px;
+		line-height: 16px;
+		font-weight: normal;
+		margin: 0;
+	}
+	&__btn{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 65px;
+		background-color: #FEC50C;
+		color: #057BAF;
+		font-size: 14px;
+		line-height: 65px;
+		font-weight: 500;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+}

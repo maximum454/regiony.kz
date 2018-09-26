@@ -1,0 +1,20 @@
+/*mixin*/
+@import "base/mixin";
+@import 'base/normalize';
+@import 'base/fonts';
+@import "base/class";
+
+/*blocks vendors*/
+@import "vendors/bootstrap";
+
+
+/*blocks regiony*/
+@import "bloks/header";
+@import "bloks/form-search";
+@import "bloks/nav-main";
+@import "bloks/footer";
+@import "bloks/social";
+@import "bloks/news-main";
+@import "bloks/region";
+@import "bloks/slider-main";
+@import "bloks/breadcrumb";

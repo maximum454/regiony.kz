@@ -1,0 +1,23 @@
+.form-search{
+	width: 100%;
+	position: relative;
+	&__input{
+		width: 100%;
+		height: 45px;
+		padding: 0 20px;
+		border: 1px solid #FEC50C;
+		border-radius: 20px;
+		font-size: 14px;
+	}
+	&__submit{
+		display: block;
+		position: absolute;
+		top: 14px;
+		right: 20px;
+		background-image: url("../img/form-search-icon.svg");
+		background-size: 100%;
+		width: 16px;
+		height: 16px;
+		border: none;
+	}
+}
