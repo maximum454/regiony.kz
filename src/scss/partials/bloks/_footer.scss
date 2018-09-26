@@ -1,0 +1,21 @@
+.footer{
+	padding: 30px 0;
+	background: #057baf;
+	background: -moz-linear-gradient(left, #057baf 0%, #00bfd3 100%);
+	background: -webkit-linear-gradient(left, #057baf 0%,#00bfd3 100%);
+	background: linear-gradient(to right, #057baf 0%,#00bfd3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#057baf', endColorstr='#00bfd3',GradientType=1 );
+	color: #fff;
+	font-size: 14px;
+	&__nav{
+		text-align: right;
+		a{
+			color: #fff;
+			margin-left: 15px;
+			&:hover{
+				color: #FEC50C;
+				text-decoration: none;
+			}
+		}
+	}
+}
