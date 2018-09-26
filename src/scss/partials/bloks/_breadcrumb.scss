@@ -1,0 +1,17 @@
+.breadcrumb{
+	background-color: transparent;
+	padding: 0;
+	margin-bottom: 30px;
+	.breadcrumb-item + .breadcrumb-item::before {
+		content: ">";
+		padding: 0 1rem;
+		color: #057BAF;
+	}
+	.breadcrumb-item.active{
+		color: #057BAF;
+		text-decoration: underline;
+	}
+	a{
+		color: #057BAF;
+	}
+}

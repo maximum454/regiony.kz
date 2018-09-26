@@ -1,0 +1,41 @@
+.region{
+	background-color: #FEC50C;
+	position: relative;
+	padding: 60px 0;
+	margin-bottom: 60px;
+	text-align: center;
+	&:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-image: url("../img/regiony-bg.png");
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		opacity: .1;
+	}
+	&__header{
+		text-align: left;
+		font-size: 24px;
+		position: relative;
+		padding-bottom: 23px;
+		margin-bottom: 60px;
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-color: #057BAF;
+			width: 100%;
+			height: 1px;
+		}
+	}
+	&__img{
+		margin-bottom: 33px;
+	}
+	&__name{
+		font-size: 24px;
+		font-weight: bold;
+	}
+}
