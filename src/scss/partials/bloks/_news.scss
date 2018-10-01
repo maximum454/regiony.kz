@@ -1,4 +1,25 @@
 .news{
+	&__nav{
+		padding: 10px 0;
+		border-top: 1px solid #FEC50C;
+		border-bottom: 1px solid #FEC50C;
+		margin-bottom: 30px;
+		a{
+			color: #057BAF;
+			font-size: 18px;
+			line-height: 30px;
+			font-weight: 600;
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			margin-right: 5px;
+			text-align: center;
+			&.active{
+				background-color: #FEC50C;
+				border-radius: 50%;
+			}
+		}
+	}
 	&__inner{
 
 	}
