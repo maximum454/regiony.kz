@@ -1,4 +1,9 @@
 .news{
+	&--tourist{
+		.news__img{
+			width: 355px;
+		}
+	}
 	&__nav{
 		padding: 10px 0;
 		border-top: 1px solid #FEC50C;
