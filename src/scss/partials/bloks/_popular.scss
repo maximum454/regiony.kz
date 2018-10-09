@@ -20,9 +20,12 @@
 		margin-bottom: 3px;
 	}
 	&__name{
+		display: block;
+		color: #212529;
 		font-size: 14px;
 		line-height: 16px;
 		font-weight: normal;
+		text-decoration: none;
 		margin: 0;
 	}
 	&__btn{

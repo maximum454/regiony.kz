@@ -12,6 +12,7 @@
 		font-size: 16px;
 		text-transform: uppercase;
 		text-decoration: none;
+		&.selected
 		&:hover{
 			color: #FEC50C;
 			text-decoration: none;
